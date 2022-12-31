@@ -1,1 +1,9 @@
 <!-- Liste de tous les posts -->
+
+extends layout
+
+block content
+  h1 My Blog
+  each post in posts
+    h2= post.title
+    p= post.content

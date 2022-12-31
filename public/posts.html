@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Blog </title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+    <header>Notre Blog</header>
+    <div class="blank"> </div>
+    <div class="add"> <a href="/posts/edit"> <i class="icon-plus-sign"></i></a></div>
+    <div class="home"> <a href="/posts"> <i class="icon-home"></i></a></div>
+    <section>
+        <div class="titre">introduction a react
+            <div class="cmd"><a href="/posts/edit/63a434772573b7d41b1daac7"> <i class="icon-edit"> </i></a><a onclick="alert('Impossible de  supprimer ce post. ') " hreef="/posts/delete/63a434772573b7d41b1daac7"><i class="icon-trash"></i></a></div>
+        </div>
+        <div class="auteur">Auteur: Gonane </div>
+        <div class="date">date de création: Thu Dec 22 2022 10:41:59 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="date">date de Modification: Thu Dec 29 2022 19:00:45 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="resume">
+            <p>Résumé</p><span>un resumé...</span><a href="/posts/63a434772573b7d41b1daac7">Lire plus</a></div>
+    </section>
+    <section>
+        <div class="titre">D'où vient-il?
+            <div class="cmd"><a href="/posts/edit/6383e136e416171f7ee71c73"> <i class="icon-edit"> </i></a><a onclick="alert('Impossible de  supprimer ce post. ') " hreef="/posts/delete/6383e136e416171f7ee71c73"><i class="icon-trash"></i></a></div>
+        </div>
+        <div class="auteur">Auteur: lorem </div>
+        <div class="date">date de création: Sun Nov 27 2022 22:14:14 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="date">date de Modification: Mon Nov 28 2022 00:49:04 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="resume">
+            <p>Résumé</p><span>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire....</span><a href="/posts/6383e136e416171f7ee71c73">Lire plus</a></div>
+    </section>
+    <section>
+        <div class="titre">Pourquoi l'utiliser
+            <div class="cmd"><a href="/posts/edit/6383e0e5e416171f7ee71c6f"> <i class="icon-edit"> </i></a><a onclick="alert('Impossible de  supprimer ce post. ') " hreef="/posts/delete/6383e0e5e416171f7ee71c6f"><i class="icon-trash"></i></a></div>
+        </div>
+        <div class="auteur">Auteur: zouazoua </div>
+        <div class="date">date de création: Sun Nov 27 2022 22:12:53 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="date">date de Modification: Sun Nov 27 2022 22:12:53 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="resume">
+            <p>Résumé</p><span>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens...</span><a href="/posts/6383e0e5e416171f7ee71c6f">Lire plus</a></div>
+    </section>
+    <section>
+        <div class="titre">Lorem Ipsum
+            <div class="cmd"><a href="/posts/edit/6383dc1fe416171f7ee71c5a"> <i class="icon-edit"> </i></a><a onclick="alert('Impossible de  supprimer ce post. ') " hreef="/posts/delete/6383dc1fe416171f7ee71c5a"><i class="icon-trash"></i></a></div>
+        </div>
+        <div class="auteur">Auteur: lorem </div>
+        <div class="date">date de création: Sun Nov 27 2022 21:52:31 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="date">date de Modification: Sun Nov 27 2022 21:52:31 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="resume">
+            <p>Résumé</p><span>Le Lorem Ipsum est simplement du faux ...</span><a href="/posts/6383dc1fe416171f7ee71c5a">Lire plus</a></div>
+    </section>
+    <section>
+        <div class="titre">test
+            <div class="cmd"><a href="/posts/edit/6383cee175d6cb1527545cc6"> <i class="icon-edit"> </i></a><a onclick="alert('Impossible de  supprimer ce post. ') " hreef="/posts/delete/6383cee175d6cb1527545cc6"><i class="icon-trash"></i></a></div>
+        </div>
+        <div class="auteur">Auteur: test </div>
+        <div class="date">date de création: Sun Nov 27 2022 20:56:01 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="date">date de Modification: Sun Nov 27 2022 21:51:42 GMT+0000 (Coordinated Universal Time) </div>
+        <div class="resume">
+            <p>Résumé</p><span>test...</span><a href="/posts/6383cee175d6cb1527545cc6">Lire plus</a></div>
+    </section>
+    <style>
+        body {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blank {
+    height: 100px;
+}
+
+.resume>p,
+.content>p {
+    background-color: lightblue;
+    max-width: fit-content;
+    padding: 2px 10px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 32px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.add,
+.home {
+    position: fixed;
+    right: 20px;
+    background-color: rgb(197, 226, 236);
+    border-radius: 20px 0px 0px 20px;
+    font-size: 30px;
+    margin-top: 1px;
+    padding: 2px;
+    text-align: right;
+    box-shadow: 0px 4px 4px 0px gray;
+}
+
+.add {
+    bottom: 40px;
+}
+
+.home {
+    top: 40px;
+}
+
+section {
+    margin-top: 2px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+i {
+    cursor: pointer;
+    margin: 2px;
+    padding: 2px;
+}
+
+i:hover {
+    color: orange;
+}
+
+.cmd {
+    display: inline-block;
+    float: none;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.titre {
+    background-color: #ccc;
+    padding: 6px;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+    </style>
+</body>
+
+</html>
